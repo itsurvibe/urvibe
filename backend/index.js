@@ -7,19 +7,26 @@ const fs = require('fs')
 
 const app = express();
 const PORT = 3000;
-const MONGODB_URI = 'mongodb://127.0.0.1/';
+const MONGODB_URI = 'mongodb+srv://itsurvibe:itsurvibe@cluster0.elprrpe.mongodb.net/'; 
 
 app.use(bodyParser.json());
 app.use(cors());
+
+// Conexión a MongoDB
+const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+client.connect()
+  .then(() => {
+    console.log('Conexión exitosa a MongoDB Atlas');
+  })
+  .catch(err => {
+    console.error('Error al conectar a MongoDB Atlas:', err);
+  });
 
 app.post('/registro', async (req, res) => {
   const { correo } = req.body;
 
   try {
-    const client = new MongoClient(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-    await client.connect();
-
-    const db = client.db('UrViBE');
+    const db = client.db();
     const collection = db.collection('usuarios');
 
     const existingUser = await collection.findOne({ correo });
