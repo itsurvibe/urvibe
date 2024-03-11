@@ -2,6 +2,7 @@ import "./Comunity.css"
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { backend } from '../../backend.js'
 import AlertError from '../UI/AlertError';
 import AlertSucces from '../UI/AlertSucces'
 import notificationSound from '../../assets/Inicio_assets/notify.mp3'
@@ -44,7 +45,7 @@ const  Comunity = () => {
       }
   
       try {
-        const response = await axios.post('http://localhost:3000/registro', { correo });
+        const response = await axios.post(backend+'/registro', { correo });
         setCorreo('');
         setTipoError('');
         setRegistroCompletado(true);
