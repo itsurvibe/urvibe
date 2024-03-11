@@ -1,0 +1,223 @@
+
+
+.mainHeader{
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--blackPage);
+}
+
+.navBarN{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.titlePage{
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 60vw;
+    height: 30vh;
+}
+  
+.content {
+    width: 60vw;
+    height: 70vh;
+}
+  
+.img {
+    width: 40vw; 
+    height: 100vh; 
+    text-align: center;
+}
+
+img{
+    height: 45vw;
+}
+
+.container-nav-footer{
+    position: absolute;
+    width: 45vw;
+    height: 5vw;
+    top: 8vh;
+    left: 17vw;
+    display: flex;
+}
+
+.logoHeader{
+    width: 10vw;
+    height: 11vh;
+    display: flex;
+    margin-left: 1vw;
+    align-items: center;
+}
+.iconoHeaderNosotros{
+  width: 3vw;
+  position: relative;
+  margin-top: 1vh;
+  left: -4.2vw;
+}
+
+.iconoHeaderNosotros img{
+  width: 40px;
+  height: 40px;
+}
+
+.links{
+    width: 15vw;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Nosotros{
+  width: 12.5vw;
+  height: 11vh;
+  margin-top: 7vh;
+
+}
+.Faq{
+  width: 12.5vw;
+  height: 11vh;
+  margin-top: 7vh;
+}
+
+.links a{
+    margin-left: -3vw;
+  text-decoration: none;
+  color: var(--color-whitePage);
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2vh;
+
+  margin-right: 4vw;
+}
+
+
+.titlePage p{
+    font-size: 7vh;
+    font-family: var(--font-family);
+    font-weight: 650;
+    color: var(--color-whitePage);
+}
+
+.nosotrosP a{
+    color: var(--color-purple);
+}
+
+.nosotrosP{
+    position: absolute;
+    left: 30vw;
+    top: 1.5vh;
+}
+
+.faqP{
+    position: absolute;
+    left: 40vw;
+    top: 1.5vh;
+}
+
+
+@media screen and (max-width: 600px){
+    .mainHeader{
+        width: 100vw;
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    .navBarN{
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .titlePage{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .navbar{
+        width: 400vw;
+        height: 20vh;
+        text-align: center;
+    }
+
+    .titlePage p{
+        font-size: 3.6vh;
+    }
+
+    .container-nav-footer{
+        width: 100vw;
+        height: 20vh;
+
+        margin-left: -16.9vw;
+        margin-top: -8vh;
+        text-align: center;
+    }
+
+    .iconoHeaderNosotros{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        text-align: center;
+    } 
+
+    .iconoHeaderNosotros img{
+        width: 40px;
+        height: 40px;
+        margin-left: 17vw;
+    }
+
+    .logoHeader{
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .logos{
+        display: none;
+    }
+
+    .logos a{
+        display: none;
+    }
+
+    .links{
+        width: 60vw;
+        height: 20vh;
+    }
+
+    .Nosotros{
+        margin-top: -0.01vh;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .nosotrosP{
+        position: relative;
+        left: -25vw;
+        top: 7vh;
+    }
+
+    .nosotrosP a{
+        font-size: 2vh;
+    }
+
+    .faqP{
+        position: relative;
+        left: -7vw;
+        top: 2.6vh;
+    }
+
+    .faqP a{
+        font-size: 2vh;
+    }
+
+}

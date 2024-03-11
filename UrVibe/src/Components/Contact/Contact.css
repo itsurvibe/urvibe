@@ -1,0 +1,145 @@
+.mainContact{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+
+.LeftPart{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.TEXTCONTACT{
+    overflow: hidden;
+    margin: 30px;
+    height: auto;
+}
+.TEXTCONTACT p{
+    font-size: 9vh;
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: var(--blackPage);
+}
+
+.ContactUS{
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.ContenedorContact{
+    width: 50vw;
+    height: 45vh;
+    margin: 15px;
+}
+
+.apartadosSocioales{
+    width: 40vw;
+    height: 10vh;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    background-color: var(--color-gray);
+}
+
+.IMGSocial{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+.redSocials{
+    width: 40vw;
+    height: 10vh;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SocialRedIMG{
+    width: 25px;
+    height: 25px;
+}
+
+.redSocials p{
+    font-size: 5vh;
+    font-weight: 200;
+    font-family: var(--font-family);
+    color: var(--color-whitePage);
+}
+
+
+@media screen and (max-width: 600px){
+  .mainContact{
+    width: 100vw;
+    height: 58vh;
+    flex-direction: column;
+  }
+
+  .LeftPart{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+
+
+  .TEXTCONTACT p{
+    font-size: 3.7vh;
+  } 
+
+  .ContactUS{
+    width: 100vw;
+    height: 45vh;
+  }
+
+  .ContenedorContact{
+    margin-left: -0.01vw;
+    width: 100vw;
+
+  }
+
+  .apartadosSocioales{
+    width: 90vw;
+    height: 7vh;
+  }
+
+  .IMGSocial{
+    margin-left: 0.01vw;
+    width: 15vw;
+    height: 7vh;
+  }
+
+  .redSocials{
+    height: 9vh;
+    width: 77vw;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .IMGSocial img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .redSocials p{
+    margin-left: 4vw;
+    font-size: 2vh;
+  }
+}

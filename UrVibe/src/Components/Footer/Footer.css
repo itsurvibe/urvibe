@@ -1,0 +1,281 @@
+
+
+.footerMain{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--blackPage);
+}
+
+.Data{
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+}
+
+.socialRed{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+}
+
+.derechos{
+    width: 40vw;
+    height: 15vh;
+}
+
+.textDerechos{
+    margin-left: 15vw;
+}
+
+.textDerechos p{
+    font-size: 2.5vh;
+    color: var(--color-whitePage);
+    font-family: var(--font-family);
+}
+
+a{
+    color: var(--color-whitePage);
+}
+
+.ContainerImag{
+   margin-left: 11vh;
+
+}
+
+.redes_sociales img{
+    width: 2.4vw;
+    height: 14vh;
+}
+
+.redes_sociales{
+    width: 60vw;
+    height: 15vh;
+}
+
+.IMGTWITTER{
+    margin-left: 0.4VW;
+}
+
+.Logo{
+    width: 25vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Mapa{
+    width: 20vw;
+    height: 38vh;
+    margin-top: 8vh;
+    margin-left: 10vw;
+}
+
+.Nosotros2{
+    width: 18vw;
+    height: 25vh;
+    margin-top: 8vh;
+}
+.Palabras{
+    display: flex;
+}
+
+.Palabras .Link{
+
+
+    font-size: 4vh;
+    font-weight: 400;
+}
+
+
+
+.ListWords{
+    color: var(--color-whitePage);
+    font-size: 3.7vh;
+    font-family: var(--font-family);
+}
+
+.ListWords a{
+    color: var(--color-whitePage);
+    font-size: 3.7vh;
+    font-family: var(--font-family);   
+    text-decoration: none;
+}
+
+
+.Politicas{
+    margin-top: 8vh;
+    width: 25vw;
+    height: 25vh;
+}
+
+.Icono-Logo{
+    width: auto;
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13vh;
+    margin-right: 1vh;
+}
+
+.Logo2{
+   margin-top: 3vh;
+   margin-left: 1vw; 
+}
+
+.IconoF{
+    margin-bottom: 28vh;
+    margin-right: -10vw;
+}
+
+.Link{
+    color: var(--color-purple);
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+
+
+@media screen and (max-width: 600px){
+    .footerMain{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Data{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .socialRed{
+        width: 100vw;
+        height: 10vh;
+    }
+    .textDerechos{
+        width: 100vw;
+        margin-left: -3vw;
+    }
+
+    .textDerechos p{
+        text-align: center;
+        font-size: 2.3vh;
+        margin-left: 5vw;
+    }
+
+    .redes_sociales{
+        margin-top: 8vh;
+        margin-left: -40vw;
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        background-color: var(--blackPage);
+    }
+
+    .ContainerImag{
+        margin-left: -2.5vw;
+    }
+
+    .redes_sociales img{
+        margin-top: 3vh;
+        width: 100px;
+        height: 40px;
+    }
+
+    .Logo{
+        width: 100vw;
+        height: 20vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Icono-Logo{
+        width: 100vw;
+        height: 20vh;
+        margin-top: 0.001vh;
+        margin-left: -33vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .IconoF{
+        
+        margin-top: 28vh;
+        width: 30vw;
+        height: 20vh;
+        margin-left: -10vw;
+        margin: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .IconoF img{
+        width: 60px;
+        height: 60px;
+        margin-top: 3vh;
+    }
+
+    .Logo2{
+        width: 10vw;
+        height: auto;
+        margin-left: -8vw;
+    }
+
+    .Palabras{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .Mapa{
+        margin-top: -0.1vh;
+        margin-left: -0.1vw;
+        width: 100vw;
+        height: auto;
+    }
+
+    .TextNavigation{
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .Link{
+        margin-top: -0.5vh;
+        font-size: 2.4vh;
+    }
+
+    .ListWords a{
+        font-size: 2.6vh;
+        text-decoration: none;
+    }
+
+
+    .Nosotros2{
+        width: 100vw;
+        height: 30vh;
+        margin-top: -0.1vh;
+    }
+
+    .Politicas{
+        margin-top: -0.01vh;
+        width: 100vw;
+        height: auto;
+    }
+
+    
+
+}

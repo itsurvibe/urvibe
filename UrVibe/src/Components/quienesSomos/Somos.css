@@ -1,0 +1,302 @@
+
+
+.mainSomos{
+    width: 100vw;
+    height: auto;
+    background-color: var(--color-Page-Secondary);
+}
+.textSomos{
+    width: 80vw;
+    height: auto;
+    overflow: hidden;
+    margin-left: 13vw;
+}
+
+.titleSomos{
+    overflow: hidden;
+    width: auto;
+
+    font-size: 7vh;
+    font-family: var(--font-family);
+    font-weight: 650;
+    color: var(--blackPage);
+
+}
+
+.descriptionSomos {
+
+    font-size: 4vh;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--blackPage);
+}
+
+.cardUs{
+    width: 80vw;
+    height: 60vh;
+    margin-left: 13vw;
+}
+
+.CARTAS{
+    width: 80vw;
+    height: 60vh;
+}
+
+.containerC1{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+}
+
+.containerC2{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+
+}
+
+
+.creator1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    border: 2px solid var(--blackPage);
+    border-radius: 15px;
+
+    width: 35vw;
+    height: 25vh;
+
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.creator1:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+
+
+.cardM{
+
+    border-radius: 10px;
+    width: 35vw;
+    height: 25vh;
+    display: flex;
+    flex-wrap: nowrap wrap;
+}
+
+.IMGM{
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.IMGM img{
+    object-fit: cover;
+    width: 9vw;
+    height: 19vh;
+}
+
+.TextM{
+    width: 25vw;
+    height: 25vh;
+}
+
+.NombreM{
+    width: 25vw;
+    height: 10vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.NombreM p{
+    font-family: var(--font-family);
+    color: var(--blackPage);
+    font-weight: 600;
+    font-size: 5vh;
+
+}
+
+.puestoM{
+    width: 25vw;
+    height: 15vh;
+    overflow: hidden;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.puestoM p{
+    font-weight: 200;
+    font-family: var(--font-family);
+    font-size: 2.6vh;
+}
+
+
+.creator2{
+    display: flex;
+    align-items: center;
+    justify-content: start;   
+
+    border: 2px solid var(--blackPage);
+    border-radius: 15px;
+
+    width: 35vw;
+    height: 25vh;
+    margin-left: 5vw;
+
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.creator2:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+.creator3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    border: 2px solid var(--blackPage);
+    border-radius: 15px;
+
+    width: 35vw;
+    height: 25vh;
+    margin-top: 4vh;
+
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.creator3:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+.creator4{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 15px;
+    margin-left: 5vw;
+
+    border: 2px solid var(--blackPage);
+
+    width: 35vw;
+    height: 25vh;
+    margin-top: 4vh;
+
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.creator4:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+
+@media screen and (max-width: 600px){
+    .mainSomos{
+        overflow: hidden;
+        height: auto;
+    }
+
+    .titleSomos{
+        font-size: 3.7vh;
+    }
+
+    .descriptionSomos{
+        font-size: 2vh;
+    }
+
+    .cardUs{
+        height: auto;
+    }
+
+    .CARTAS{
+        height: auto;
+    }
+
+    .containerC1{
+        height: auto;
+        flex-direction: column;
+    }
+    .containerC2{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .creator1{
+        width: 80vw;
+        height: 20vh;
+    }
+
+    .creator2{
+        width: 80vw;
+        height: 20vh;
+        margin-top: 2vh;
+        margin-left: -0.2vw;
+    }
+
+    .creator3{
+        width: 80vw;
+        height: 20vh;
+        margin-top: 2vh;
+        margin-left: -0.2vw;
+    }
+
+    .creator4{
+        width: 80vw;
+        height: 20vh;
+        margin-top: 2vh;
+        margin-left: -0.2vw;
+    }
+
+    .cardM{
+        height: 20vh;
+        width: 80vw;
+    }
+
+    .IMGM{
+        width: 50vw;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .IMGM img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .TextM{
+        height: 20vh;
+        width: 80vw;
+    }
+
+    .NombreM{
+        width: 50vw;
+        height: 7vh;
+    }
+
+    .NombreM p{
+        margin-top: 4vh;
+        font-size: 2.6vh;
+    }
+
+    .puestoM{
+        width: 50vw;
+        height: auto;
+    }
+
+    .puestoM p{
+        font-size: 1.6vh;
+        margin-left: 3vw;
+    }
+}

@@ -1,0 +1,79 @@
+
+
+.mainMYV{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-Page-Secondary);
+}
+
+.Mision{
+    width: 80vw;
+    height: 50vh;
+    margin-left: 13vw;
+    overflow: hidden;
+}
+
+.Vision{
+    width: 80vw;
+    height: 50vh;
+    margin-left: 13vw;
+    overflow: hidden;
+}
+
+.TitleMV{
+    font-size: 7vh;
+    font-weight: 650;
+    font-family: var(--font-family);
+    color: var(--blackPage);
+}
+
+.DescriptionMV{
+    position: absolute;
+    top: 172vh;
+
+    font-size: 4vh;
+    font-weight: 200;
+    font-family: var(--font-family);
+    color: var(--blackPage);
+
+}
+
+.DescriptionMVS{
+    position: absolute;
+    top: 223vh;
+    color: var(--blackPage);
+    font-size: 4vh;
+    font-weight: 200;
+    font-family: var(--font-family);
+
+}
+
+@media screen and (max-width: 600px){
+
+    .mainMYV{
+        height: auto;
+    }
+
+    .Mision{
+        height: 40vh;
+    }
+    .Vision{
+        height:48vh;
+    }
+
+    .DescriptionMV{
+        font-size: 2vh;
+    }
+
+    .TitleMV{
+        margin-top: 8vh;
+        font-size: 3.7vh;
+    }
+
+    .DescriptionMVS{
+        font-size: 2vh;
+        margin-top: -10vh;
+    }
+
+    
+}

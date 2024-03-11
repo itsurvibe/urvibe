@@ -1,0 +1,429 @@
+@import '../../index.css';
+
+.body-section-3{
+    width: 100vw;
+    height: 70vh;
+
+    background-color: var(--color-purple);
+}
+
+.Title-3{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.Title-p{
+    font-size: 7vh;
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: var(--color-whitePage);
+}
+
+.sections-3{
+    width: 100vw;
+    height: 47.49vh;
+    display: flex;
+}
+
+.aside-1{
+    width: 33vw;
+    height: 47.49vh;
+}
+
+.avatar-1{
+    width: 35vw;
+    height: 20vh;    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.group1Avatar{
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImg-1{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    border-color: 2px solid var(--blackPage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--blackPage);
+    background-color: var(--color-whitePage);
+}
+.containerImg-1 img{
+    height: 7vh;
+}
+
+.aside-3{
+    width: 33vw;
+    height: 47.49vh;
+}
+
+.containerText-3{
+    overflow: hidden;
+    width: 25vw;
+    height: 5vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10vw;
+}
+
+.containerText-3 p{
+    font-family: var(--font-family);
+    font-size: 3vh;
+    font-weight: 500;
+
+    color: var(--color-whitePage);
+}
+
+.subtitle{
+    overflow: hidden;
+    width: 25vw;
+    height: 20vh;
+    margin-left: 10vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.subtitle{
+    font-family: var(--font-family);
+    font-size: 2vh;
+    font-weight: 200;
+    color: var(--color-whitePage);
+    text-align: center;
+}
+
+
+.avatar-3{
+    width: 35vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.group3Avatar{
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerIMG3{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    border-color: 2px solid var(--blackPage);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--blackPage);
+    background-color: var(--color-whitePage);
+}
+
+.containerIMG3 img{
+    height: 7vh;
+}
+
+.conatinerText3{
+    width: 25vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conatinerText3 p{
+    font-family: var(--font-family);
+    font-size: 3vh;
+    font-weight: 500;
+
+    color: var(--color-whitePage);
+}
+
+.containerSubtitulo3{
+    width: 25vw;
+    height: 20vh;
+    overflow: hidden;
+    display:flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.subtitle-3{
+    font-family: var(--font-family);
+    font-size: 2vh;
+    font-weight: 200;
+    color: var(--color-whitePage);
+    text-align: center;
+}
+
+.img-3{
+    width: 35vw;
+    height: 20vh;
+}
+
+.titulo{
+    overflow: hidden;
+    width: 35vw;
+}
+
+.subtitulo{
+    overflow: hidden;
+    width: 35vw;
+    height: 17.49vh;
+}
+
+
+.aside-2{
+    width: 33vw;
+    height: 47.49vh;
+
+}
+
+.img-4{
+    width: 33vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-aside2{
+    width: 33vw;
+    height: 10vh;
+}
+
+.avatar-2{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--blackPage);
+    background-color: var(--color-whitePage);
+}
+
+.avatar-2 img{
+    height: 7vh;
+}
+
+.subtituloaside2{
+    width: 33vw;
+    height: 17.9vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.subtituloaside2 p{
+    font-family: var(--font-family);
+    font-size: 2vh;
+    font-weight: 500;
+    
+    text-align: center;
+
+    
+
+    color: var(--color-whitePage);
+}
+
+.titulo-aside2{
+    width: 33vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-aside2{
+    font-family: var(--font-family);
+    font-size: 3vh;
+    font-weight: 500;
+
+    color: var(--color-whitePage);
+}
+
+
+
+@media screen and (max-width: 600px){
+    .body-section-3{
+      width: 100vw;
+      height: 99vh;
+  
+    }
+  
+    .Title-3{
+      width: 100vw;
+      height: auto;
+    }
+  
+    .Title-p{
+      font-size: 4vh;
+    }
+  
+    .sections-3{
+      width: 100vw;
+      height: 82vh;
+      flex-direction: column;
+  
+  
+    }
+  
+  
+    .aside-1{
+      width: 100vw;
+      height: 27.3vh;
+  
+    }
+  
+    .img-3 .avatar-1{
+      width: 100vw;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+    }
+  
+    .group1Avatar{
+      width: 50vw;
+      height: 22vw;
+  
+    }
+  
+    .containerImg-1{
+      width: 16vw;
+      height: 7vh;
+    }
+  
+    .containerImg-1 img{
+      width: 40px;
+    }
+  
+    .titulo{
+      width: 89vw;
+      height: 7vh;
+      margin-top: -10vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .containerText-3{
+      font-size: 2vh;
+    }
+  
+    .subtitulo{
+      width: 100vw;
+      height: 10.3vh;
+  
+    }
+  
+    .subtitle{
+      width: 100vw;
+      height: 10.3vh;
+      margin-left: -0.2vw;
+  
+  
+    }
+    .aside-2{
+      width: 100vw;
+      height: 27.3vh;
+  
+    }
+  
+    .img-4{
+      width: 100vw;
+      height: 10vh;
+  
+  
+    }
+  
+    .avatar-2{
+      width: 16vw;
+      height: 7vh;
+    }
+  
+    .avatar-2 img{
+      width: 40px;
+    }
+  
+    .titulo-aside2{
+      width: 100vw;
+      height: 7vh;
+      margin-left: -0.2vw;
+  
+  
+    }
+
+
+    .subtituloaside2{
+        width: 100vw;
+        height: 10.3vh;
+
+    }
+  
+    .aside-3{
+        width: 100vw;
+        height: 27.3vh;
+    }
+
+    .avatar-3{
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .group3Avatar{
+        width: 60vw;
+        height: 10vh;
+    }
+
+    .containerIMG3{
+        width: 16vw;
+        height: 7vh;
+    }
+
+    .containerIMG3 img{
+        width: 40px;
+    }
+
+
+
+    .Text-5{
+        margin-left: 11vw;
+    }
+
+    .containerSubtitulo3{
+        width: 100vw;
+    }
+  
+  
+  }
+  

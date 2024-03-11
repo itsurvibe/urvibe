@@ -1,0 +1,193 @@
+
+.mainComunity{
+    width: 100vw;
+    height: 70vh;
+    background-color: var(--color-purple);
+    display: flex;
+}
+
+.leftComunity{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+.rightComun{
+    width: 60vw;
+    height: 70vh;
+}
+
+.communityIMG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textComunity{
+    width: 47vw;
+    height: auto;
+}
+
+.comunityTitle{
+    width: 47vw;
+    height: 14vh;
+}
+
+.comunityTitle p{
+
+    color: var(--color-whitePage);
+    font-family: var(--font-family);
+    font-weight: 650;
+    font-size: 7vh;
+}
+
+.comunitySubtitle p{
+    color: var(--color-whitePage);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 5vh; 
+}
+
+.comunityForm{
+    height: 20vh;
+    margin-top: -1.5vh
+}
+
+.comunityForm input{
+    width: 20vw;
+    height: 7vh;
+    font-size: 2.7vh;
+    border: 2px solid #000;
+    border-radius: 50vw;
+    padding-left:1vw;
+    outline: none;
+  
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: var(--color-black);
+  }
+  
+  .comunityForm  input::placeholder{
+    color: var(--color-gray-transparent);
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }
+  
+  .comunityForm:focus::placeholder{
+    color: transparent;
+  }
+  
+  .comunityForm button{
+    width:13vw;
+    height: 7.5vh;
+  
+    border-radius: 50vw;
+    border: 2px solid #000;
+    color: var(--color-whitePage);
+    font-size: 2.7vh;
+    margin-left: 1vw;
+    position: absolute;
+    background-color: var(--blackPage); 
+    cursor: pointer;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  }
+  
+  .comunityForm button:hover{
+    background-color: #000000; 
+  }
+
+
+  @media screen and (max-width: 600px){
+    .mainComunity{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .leftComunity{
+        width: 100vw;
+        height: auto;
+    }
+
+    .rightComun{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .communityIMG{
+        width: 100vw;
+        height: 100vw;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communityIMG img{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .textComunity{
+        width: 100vw;
+        height: 50vh;
+
+        
+        display: block;
+        align-items: start;
+    }
+
+
+    .comunityTitle{
+        width: 100vw;
+        height: auto;
+    }
+
+    .comunityTitle p{
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    .comunitySubtitle{
+        width: 100vw;
+        height: auto;
+    }
+
+    .comunitySubtitle p{
+        font-size: 2.2vh;
+        text-align: center;
+        width: 95vw;
+    }
+
+    .comunityForm{
+        width: 100vw;
+        margin-top: 5vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .comunityForm input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 2vh;
+        padding: 0 0 0 10px; 
+    }
+
+    .comunityForm button{
+        margin-top: 7vh;
+        height: 5.5vh;
+        margin-left: -84vw;
+        width: 84vw;
+    }
+
+  }

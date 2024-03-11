@@ -1,0 +1,199 @@
+
+
+.mainVibes{
+    background-color: var(--color-whitePage);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.vibesLeft{
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.vibesRight{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vibeContainer{
+    width: 39vw;
+    height: 30vw;
+}
+
+.vibeTitle{
+    width: 37.5;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.vibeDescription{
+    width: 37.5vw;
+    height:29vh;
+    overflow: hidden;
+}
+
+.vibeTitle p{
+    position: absolute;
+    top: 481vh;
+    font-family: var(--font-family);
+    color: var(--blackPage);
+    font-weight: 650;
+    font-size: 7vh;
+}
+
+.vibeDescription p{
+    position: absolute;
+    top: 494vh;
+    font-family: var(--font-family);
+    font-size: 4.5vh;
+}
+.vibeFormulario{
+    width: 37.5vw;
+    height: auto;
+    display: flex;
+    margin-top: 2vh;
+}
+
+
+.vibeFormulario input{
+    width: 20vw;
+    height: 7vh;
+    font-size: 2.7vh;
+    border: 2px solid #000;
+    border-radius: 50vw;
+    padding-left:1vw;
+    outline: none;
+  
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: var(--color-black);
+}
+  
+.vibeFormulario  input::placeholder{
+    color: var(--color-gray-transparent);
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+  
+.vibeFormulario:focus::placeholder{
+    color: transparent;
+}
+  
+.vibeFormulario button{
+    width:13vw;
+    height: 7.5vh;
+  
+
+    border-radius: 50vw;
+    border: 2px solid #000;
+    color: var(--color-whitePage);
+    font-size: 2.7vh;
+    margin-left: 1vw;
+    background-color: var(--color-purple); 
+    cursor: pointer;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+  
+.vibeFormulario button:hover{
+    background-color: #5A2497; 
+}
+
+@media screen and (max-width: 600px){
+    .mainVibes{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .vibesLeft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+
+    }
+
+    .vibesRight{
+        width: 100vw;
+        height: 50vh;
+
+    }
+
+    .vibeContainer{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .vibeTitle{
+        width: 100vw;
+        height: 10vh;
+        
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .vibeTitle p{
+        margin-top: -60vh;
+        font-size: 4.7vh;
+        margin-left: 2vw;
+    }
+
+    .vibeDescription{
+        width: 100vw;
+        height: 15vh;
+
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .vibeDescription p{
+        margin-top: -65vh;
+        margin-left: -16vw;
+        font-size: 2vh;
+    }
+
+    .vibeFormulario{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .vibeFormulario input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 2vh;
+    
+        padding: 0 0 0 10px; 
+    }
+
+    .vibeFormulario button{
+        width: 84vw;
+        height: 5.5vh;
+        margin-top: 2vh;
+    }
+
+    .vibeIMG img{
+        width: 95vw;
+        height: 90vh;
+    }
+}
+
+
+
+

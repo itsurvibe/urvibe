@@ -1,0 +1,215 @@
+
+
+.mainHeaders{
+    width: 100vw;
+    height: 50vh;
+    background-color: var(--blackPage);
+}
+
+.navBarNs{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
+
+.titlePages{
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbars {
+    width: 60vw;
+    height: 30vh;
+}
+  
+.contents {
+    width: 60vw;
+    height: 70vh;
+}
+  
+.imgs {
+    width: 40vw; 
+    height: 100vh; 
+    text-align: center;
+}
+
+img{
+    height: 45vw;
+}
+
+.container-navs{
+    position: absolute;
+    width: 45vw;
+    height: 5vw;
+    top: 8vh;
+    left: 17vw;
+    display: flex;
+}
+
+.logos{
+    width: 30vw;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    margin-left: -4vw;
+}
+.iconos{
+  width: 3vw;
+  height: 6vh;
+  position: relative;
+  margin-top: 1vh;
+}
+
+.iconos img{
+  width: 3vw;
+  height: 5vh;
+}
+
+.linkss{
+    width: 15vw;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Nosotross{
+  width: 12.5vw;
+  height: 11vh;
+  margin-top: 7vh;
+}
+.Faqs{
+  width: 12.5vw;
+  height: 11vh;
+  margin-top: 7vh;
+}
+
+.linkss a{
+    margin-left: -3vw;
+  text-decoration: none;
+  color: var(--color-whitePage);
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2vh;
+
+  margin-right: 4vw;
+}
+
+
+.titlePages p{
+    font-size: 7vh;
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: var(--color-whitePage);
+}
+
+
+.nosotrosPs{
+    position: absolute;
+    left: 30vw;
+    top: 1.5vh;
+}
+
+.faqPs{
+    position: absolute;
+    left: 40vw;
+    top: 1.5vh;
+
+}
+
+@media screen and (max-width: 600px){
+    .mainHeaders{
+        width: 100vw;
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    .navBarNs{
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .titlePages{
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .navbars{
+        width: 400vw;
+        height: 20vh;
+        text-align: center;
+    }
+
+    .titlePages p{
+        font-size: 3.6vh;
+    }
+
+    .container-navs{
+        width: 100vw;
+        height: 20vh;
+
+        margin-left: -16.9vw;
+        margin-top: -8vh;
+        text-align: center;
+    }
+
+    .iconos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        text-align: center;
+    } 
+    .iconos img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .logos{
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .logoss{
+        display: none;
+    }
+
+
+    .linkss{
+        width: 60vw;
+        height: 20vh;
+    }
+
+    .Nosotross{
+        margin-top: -0.01vh;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .nosotrosPs{
+        position: relative;
+        left: -21vw;
+        top: 7.3vh;
+    }
+
+    .nosotrosPs a{
+        font-size: 2vh;
+    }
+
+    .faqPs{
+        position: relative;
+        left: -1vw;
+        top: 3vh;
+    }
+
+    
+
+    .faqPs a{
+        font-size: 2vh;
+    }
+}

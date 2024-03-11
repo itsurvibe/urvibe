@@ -1,0 +1,50 @@
+
+
+.Terminosbody{
+    width: 100vw;
+    height: auto;
+}
+
+.TextoTerm{
+    width: 80vw;
+    height: auto;
+    margin-left: 13vw;
+}
+
+.TituloT{
+    font-size: 7vh;
+    font-weight: 700;
+    font-family: var(--font-family)
+}
+
+
+.TextTC{
+    font-size: 4vh;
+    font-family: var(--font-family)
+}
+
+.SubtituloTC{
+    font-size: 5vh;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+
+@media screen and (max-width: 600px){
+    .Terminosbody{
+        overflow: hidden;
+    }
+
+    .TituloT{
+        font-size: 3vh;
+    }
+
+    .TextTC{
+        margin-top: 6vh;
+        font-size: 2vh;
+    }
+    .SubtituloTC{
+        margin-top: 8vh;
+        font-size: 3vh;
+    }
+
+}

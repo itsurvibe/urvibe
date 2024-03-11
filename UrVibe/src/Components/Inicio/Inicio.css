@@ -1,0 +1,323 @@
+@import '../../index.css';
+
+
+
+.body-main{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+
+
+  background-color: var(--color-black);
+  background-image: url('../../assets/assetImage/banner.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.left-column{
+  width: 60vw;
+  height: 90vh;
+}
+
+.navbarInicio{
+  width: 100vw;
+  height: 26vh;
+}
+
+.contentInicio{
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.TextInicio{
+  width: 60vw;
+  font-size: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textComunityInicio{
+  width: 49vw;
+  margin-left: 17vw;
+}
+
+.registerInicio{
+  width: 60vw;
+  height: 20.5vh;
+}
+
+.FormularioInicio{
+  width: 60vw;
+  height: 20.5vh;
+}
+
+.formInicio{
+  width: 50vw;
+  margin-left: 17vw;
+}
+
+.FormularioInicio input{
+  width: 20vw;
+  height: 7vh;
+  font-size: 3vh;
+  border-radius: 50vw;
+  border: 2px solid #000;
+  padding-left:1vw;
+  outline: none;
+  
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.FormularioInicio  input::placeholder{
+color: var(--color-gray-transparent);
+font-family: "Gabarito", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+}
+
+.FormularioInicio:focus::placeholder{
+color: transparent;
+}
+
+.FormularioInicio button{
+  width:13vw;
+  height: 7.5vh;
+  border-radius: 50vw;
+  border: 2px solid #000;
+  color: var(--color-whitePage);
+  font-size: 2.7vh;
+  background-color: var(--color-purple); 
+  cursor: pointer;
+
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  position: absolute;
+  left: 40vw;
+  top: 74vh;
+}
+
+.FormularioInicio button:hover{
+  background-color: #5A2497;
+}
+
+.textComunityInicio p{
+  font-family: var(--font-family);
+  font-weight: 650;
+  color: var(--color-whitePage);
+}
+
+.container-navInicio{
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+}
+
+
+.logoInicio{
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  margin-left: 7vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconoInicio{
+  width: 3vw;
+  height: 10vh;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconoInicio img{
+  width: 40px;
+  height: 90px;
+}
+
+
+.linksInicio{
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linksInicio a{
+  margin: 3vw;
+  text-decoration: none;
+  font-size: 2vh;
+  font-family: var(--font-family);
+}
+
+
+
+.right-column{
+  width: 40vw;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.imgInicio{
+  margin-top: -4.3vh;
+  width: auto;
+  height: auto;
+}
+
+.alert {
+  position: fixed;
+  top: 2vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  animation: slideDown 0.5s ease forwards;
+}
+  
+@keyframes slideDown {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 20px;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .body-main{
+    overflow: hidden;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-repeat: repeat;
+  }
+
+  .left-column{
+    width: 100vw;
+    height: auto;
+    
+
+  }
+
+  .navbarInicio{
+    width: 100vw;
+    height: 15vh;
+
+  }
+  .contentInicio{
+    width: 100vw;
+    height: auto;
+
+  }
+
+  .container-navInicio{
+    width: 100vw;
+    height: 20vh;
+  }
+
+  .logoInicio{
+    margin-left: 1vw;
+    height: 20vh;
+    flex-direction: column;
+  }
+
+  .logosInicio{
+    display: none;
+  }
+  .iconoInicio img{
+    width: 25vw;
+    height: 25vh;
+  }
+
+  .linksInicio{
+    width: 60vw;
+    height: 20vh;
+  }
+
+  .NosotrosInicio a{
+    position: relative;
+    top: -0.01;
+    left: -10vw;
+  }
+
+
+  .FAQINICIO a{
+    position: relative;
+    top: -0.01vh;
+    left: -12vw;
+  }
+
+  .right-column{
+    display: none;
+  }
+  .imgInicio{
+    display: none;
+  }
+
+  .imgInicio img{
+    display: none;
+  }
+
+  .TextInicio{
+    width: 100vw;
+    height: 20vh;
+    overflow: hidden;
+
+  }
+
+  .textComunityInicio{
+    margin-left: -0.01vw;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .textContent{
+    font-size: 3vh;
+  }
+
+  .registerInicio{
+    margin-left: -8vw;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formInicio{
+    width: 10vw;
+  }
+
+
+  .registerInicio input{
+    height: 5vh;
+    width: 80vw;
+    font-size: 2vh;
+
+    padding: 0 0 0 10px; 
+  }
+
+  .registerInicio button{
+    width: 84vw;
+    height: 5.5vh;
+    position: absolute;
+    left: 8vw;
+    top: 42vh;
+  }
+
+
+}

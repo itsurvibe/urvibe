@@ -1,0 +1,239 @@
+@import '../../index.css';
+
+.body-section-2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--color-whitePage);
+}
+
+.left{
+    width: 40vw;
+    height: 100vh;
+}
+
+.right{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FormularioUser{
+    width: 60vw;
+    height: 80vh;
+}
+
+.Formulario2{
+    width: 47vw;
+    height: 36vw;
+    margin-top: 15vh;
+    margin-left: -3vw;
+}
+
+.Text2{
+    width: 45vw;
+    height: 50vh;
+    justify-content: flex-start;
+    margin-left: 7.7vw;
+}
+
+.form2{
+    margin-top: -5vw;
+    margin-left: 7vw;
+    width: 47vw;
+    height: 20vh;
+}
+
+.IMG2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IMG2 img{
+    position: absolute;
+    top: 95vh;
+    left: 1vw;
+    animation: animacion 1s ease-in-out forwards;
+}
+
+@keyframes animacion {
+    0% {
+      transform: translateX(13vw); /* Desplazamiento inicial */
+    }
+    50% {
+      transform: translateX(9vw); /* Desplazamiento hacia adelante */
+    }
+    70% {
+      transform: translateX(11vw); /* Retroceso para la vibración */
+    }
+    90% {
+      transform: translateX(9vw); /* Vibración */
+    }
+    100% {
+      transform: translateX(13vw); /* Posición final */
+    }
+}
+
+
+
+
+.Bigtext{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-size: 7vh;
+    margin-bottom: 0;
+    color: var(--color-black);
+}
+
+
+.shortText{
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 4vh;
+    margin-top: 2vh;
+    color: var(--color-black);
+}
+
+
+.form2 input{
+    width: 20vw;
+    height: 7vh;
+    font-size: 3vh;
+    border-radius: 50vw;
+    border: 2px solid #000;
+    padding-left:1vw;
+    outline: none;
+    
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+  
+.form2  input::placeholder{
+color: var(--color-gray-transparent);
+font-family: "Gabarito", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+}
+  
+.form2:focus::placeholder{
+color: transparent;
+}
+  
+  .form2 button{
+    width:13vw;
+    height: 7.5vh;
+    border-radius: 50vw;
+    border: 2px solid #000;
+    color: var(--color-whitePage);
+    font-size: 2.7vh;
+    margin-left: 1vw;
+    background-color: var(--color-purple); 
+    cursor: pointer;
+  
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  }
+  
+  .form2 button:hover{
+    background-color: #5A2497;
+  }
+
+
+  @media screen and (max-width: 600px){
+    .body-section-2{
+        width: 100vw;
+        height: auto;
+        flex-flow: column;
+        overflow: hidden;
+    }
+    .left{
+        width: 100vw;
+        height: auto;
+    }
+
+    .IMG2{
+        width: 100vw;
+        height: 50vh;
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .IMG2 img{
+        margin-top: -38vh;
+        height: 50vh;
+    }
+
+    .right{
+        margin-top: 14vh;
+        width: 100vw;
+        height: auto;
+    }
+
+    .FormularioUser{
+        width: 100vw;
+        height: auto;
+    }
+
+    .Formulario2 { 
+        width: 100vw;    
+        height: auto;
+        margin-left: 0.01vw;
+
+    }
+
+    .Text2{
+        margin-top: -26vh;
+        width: 100vw;
+        margin-left: 0.01vw;
+        height: auto;
+    }
+
+    .Bigtext{
+        font-size: 4vh;
+        margin-left: -4vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shortText{
+        position: relative;
+        left: 10vw;
+        font-size: 2vh;
+        margin-left: 0.01vw;
+    }
+
+    .form2{
+        margin-left: -2vw;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form2 input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 2vh;
+    
+        padding: 0 0 0 10px; 
+    }
+
+    .form2 button{
+        width: 84vw;
+        height: 5.5vh;
+        margin-top: 2vh;
+    }
+  }  

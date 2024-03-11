@@ -1,0 +1,209 @@
+@import '../../index.css';
+
+.show-body{
+    background-color: var(--color-Page-Secondary);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.show-left{
+    width: 52vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.show-right{
+    width: 60vw;
+    height: 40vh;
+    
+}
+
+
+
+.showText{
+    width: 37vw;
+    height: 65vh;
+    position: absolute;
+    top: 384vh;
+}
+
+.showTitle{
+    width: 37vw;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.showSubtitle{
+    width: 37vw;
+    height: 14vh;
+    overflow: hidden;
+}
+
+.showForm{
+    width: 37vw;
+    height: 20vh;
+    display: flex;
+
+}
+
+.showForm form{
+    margin-top: -1.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showTitle p{
+    font-family: var(--font-family);
+    font-weight: 650;
+    font-size: 7vh;
+    color: var(--blackPage);
+}
+
+.showSubtitle p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 4vh;
+    margin-top: -.5vh;
+    color: var(--blackPage);
+}
+
+
+
+
+.showForm input{
+    width: 20vw;
+    height: 7vh;
+    font-size: 2.7vh;
+    border: 2px solid #000;
+    border-radius: 50vw;
+    padding-left:1vw;
+    outline: none;
+  
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: var(--color-black);
+  }
+  
+  .showForm  input::placeholder{
+    color: var(--color-gray-transparent);
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+  }
+  
+  .showForm:focus::placeholder{
+    color: transparent;
+  }
+  
+  .showForm button{
+    width:13vw;
+    height: 7.5vh;
+  
+    left: 21vw;
+    position: absolute;
+    top: 44.3vh;
+    border-radius: 50vw;
+    border: 2px solid #000;
+    color: var(--color-whitePage);
+    font-size: 2.7vh;
+    margin-left: 1vw;
+    background-color: var(--color-purple); 
+    cursor: pointer;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+  }
+  
+  .showForm button:hover{
+    background-color: #5A2497; 
+  }
+
+
+  @media screen and (max-width: 600px){
+    .show-body{
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .show-left{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .show-IMG img{
+        width: 90vw;
+        height: 50vh;
+    }
+
+
+    .show-right{
+        width: 90vw;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .showText{
+        margin-top: -15vh;
+        width: 100vw;
+        height: auto;
+    }
+
+    .showTitle{
+        width: 100vw;
+        height: auto;
+    }
+
+    .showTitle p{
+        font-size: 4vh;
+        margin-left: 8vw;
+    }
+
+    .showSubtitle{
+        width: 100vw;
+        height: auto;
+    }
+
+    .showSubtitle p{
+        font-size: 2vh;
+        margin-left: 8vw;
+    }
+
+    .showForm{
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .showForm form{
+        width: 100vw;
+        height: 25vh;
+        margin-top: -17vh;
+        text-align: center;
+    }
+
+    .showForm input{
+        height: 5vh;
+        width: 80vw;
+        font-size: 2vh;
+        margin-top: 15vw;
+    
+        padding: 0 0 0 10px; 
+    }
+
+    .showForm button{
+        width: 84vw;
+        height: 5.5vh;
+        font: 2vh;
+        margin-top: -10vh;
+        margin-left: -13vw;
+
+    }
+
+  }
