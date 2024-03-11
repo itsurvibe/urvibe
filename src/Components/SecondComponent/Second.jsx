@@ -1,6 +1,6 @@
 import './Second.css'
 import MockupFirst from '../../Landing Page assets/IMGs/mockupFirst.svg'
-
+import backend from '../../backend.js'
 import notificationSound from '../../assets/Inicio_assets/notify.mp3'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -47,7 +47,7 @@ const Second = () => {
       }
   
       try {
-        const response = await axios.post('http://localhost:3000/registro', { correo });
+        const response = await axios.post(backend+'/registro', { correo });
         setCorreo('');
         setTipoError('');
         setRegistroCompletado(true);
