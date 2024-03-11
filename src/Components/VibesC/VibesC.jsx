@@ -1,6 +1,6 @@
 import './VibesC.css'
 import vibeIMG from '../../assets/assetImage/vibe.svg'
-
+import { backend } from '../../backend.js'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AlertError from '../UI/AlertError';
@@ -42,7 +42,7 @@ const VibesC = () => {
       }
   
       try {
-        const response = await axios.post('http://localhost:3000/registro', { correo });
+        const response = await axios.post(backend+'/registro', { correo });
         setCorreo('');
         setTipoError('');
         setRegistroCompletado(true);
