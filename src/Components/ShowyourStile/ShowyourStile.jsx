@@ -1,6 +1,6 @@
 import './Style.css'
 import ShowMockup from '../../assets/assetImage/show.svg'
-import backend from '../../backend.js'
+import { backend } from '../../backend.js'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AlertError from '../UI/AlertError';
