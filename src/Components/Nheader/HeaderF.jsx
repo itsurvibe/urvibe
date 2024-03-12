@@ -11,12 +11,6 @@ const homes = [
     }
 ]
   
-const Nosotros = [
-    {
-        name: 'Nosotros',
-        href: '/nosotros#questionsNosotros',
-    },
-];
 
 
 const HeaderF = () => {

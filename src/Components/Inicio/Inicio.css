@@ -98,7 +98,7 @@ color: transparent;
   font-weight: 500;
   position: absolute;
   left: 40vw;
-  top: 74vh;
+  top: 65.5vh;
 }
 
 .FormularioInicio button:hover{
@@ -168,7 +168,7 @@ color: transparent;
 }
 
 .imgInicio{
-  margin-top: -4.3vh;
+  margin-top: -6vh;
   width: auto;
   height: auto;
 }

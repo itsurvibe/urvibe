@@ -2,52 +2,99 @@
 
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import ICONO from '../../assets/Inicio_assets/iconoLogo.svg';
 import Logo from '../../assets/Inicio_assets/Logo';
 import Insta from '../../assets/assetImage/Social_Icons_I.svg';
 import Twitter from '../../assets/assetImage/Social_Icons_T.svg';
 
-const Footer = () => {
-    return(
+
+const terminos = [
+    {
+      name: 'Terminos y Condiciones',
+      href: '/terminos_condiciones',
+    },
+];
+
+
+const politicas = [
+    {
+      name: 'Politicas',
+      href: '/politicas#HeaderF',
+    },
+  ];
+
+  const Footer = () => {
+
+    const scrollInicio = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+    const scrollToPosition = (elementId) => {
+        const element = document.getElementById(elementId);
+        if (element) {
+            const elementPosition = element.offsetTop;
+            window.scrollTo({
+                top: elementPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
+
+
+
+
+    return (
         <main className='footerMain'>
             <section className="Data">
                 <div className="Logo">
                     <section className='Icono-Logo'>
-                       <div className='IconoF'><img src={ICONO} alt="IMAGEN ICONO" /></div>
+                        <div className='IconoF'><img src={ICONO} alt="IMAGEN ICONO" /></div>
                         <div className='Logo2'><Logo /></div>
                     </section>
                 </div>
-                    <section className="Palabras">
-                        <div className="Mapa">
+                <section className="Palabras">
+                    <div className="Mapa">
                         <section className="TextNavigation">
-                                 <p className='Link'>Mapa</p>
-                                 <p className='ListWords'> 
-                                    <a href="/#inicio">Inicio</a> <br />
-                                    <a href="/#plataforma">Plataforma</a> <br />
-                                    <a href="/#jukebox">Jukebox</a> <br />
-                                    <a href="/#showYourStyle">Crece</a> <br />
-                                    <a href="/#vibesC">Personaliza</a> <br />
-                                    <a href="/#preguntas">FAQ</a>
-                                </p>
-                            </section>
-                        </div>
-                        <div className="Nosotros2">
-                            <section className="TextNavigation">
-                                <p className='Link'>Nosotros</p>
-                                <p className='ListWords'> 
-                                    <a href="/nosotros#quienes-somos">¿Quiénes somos?</a> <br />
-                                    <a href="/nosotros#mision-vision">Misión y visión</a> <br />
-                                    <a href="/nosotros#contacto">Contacto</a> <br />
-                                    <a href="/nosotros#questionsNosotros">FAQ</a>
-                                </p>
-                            </section>
-                        </div>
+                            <p className='Link'>Mapa</p>
+                            <p className='ListWords'>
+                                <Link to="/" onClick={() => scrollToPosition('inicio')}>Inicio</Link> <br />
+                                <Link to="/" onClick={() => scrollToPosition('plataforma')}>Plataforma</Link> <br />
+                                <Link to="/" onClick={() => scrollToPosition('jukebox')}>Jukebox</Link> <br />
+                                <Link to="/" onClick={() => scrollToPosition('showYourStyle')}>Crece</Link> <br />
+                                <Link to="/" onClick={() => scrollToPosition('vibesC')}>Personaliza</Link> <br />
+                                <Link to="/" onClick={() => scrollToPosition('preguntas')}>FAQ</Link>
+                            </p>
+                        </section>
+                    </div>
+                    <div className="Nosotros2">
+                        <section className="TextNavigation">
+                            <p className='Link'>Nosotros</p>
+                            <p className='ListWords'>
+                                <Link to="/nosotros" onClick={() => scrollToPosition('quienes-somos')}>¿Quiénes somos?</Link> <br />
+                                <Link to="/nosotros" onClick={() => scrollToPosition('mision-vision')}>Misión y visión</Link> <br />
+                                <Link to="/nosotros" onClick={() => scrollToPosition('contacto')}>Contacto</Link> <br />
+                                <Link to="/nosotros" onClick={() => scrollToPosition('questionsNosotros')}>FAQ</Link>
+                            </p>
+                        </section>
+                    </div>
                         <div className="Politicas">
                             <section className="TextNavigation">
                                 <p className='Link'>Políticas</p>
                                 <p className='ListWords'> 
-                                    <a href="/terminos_condiciones">Términos y condiciones</a> <br />
-                                    <a href="/politicas">Política de privacidad</a>
+                                    <div>
+                                       {terminos.map((termino, index) => (
+                                            <Link key={index} to={termino.href}>{termino.name}</Link>
+                                        ))}
+                                    </div> 
+                                    <div>
+                                        {politicas.map((politica, index) => (
+                                            <Link key={index} to={politica.href}>{politica.name}</Link>
+                                        ))}
+                                    </div>
                                 </p>
                             </section>
                         </div>

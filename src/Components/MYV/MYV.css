@@ -2,7 +2,7 @@
 
 .mainMYV{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     background-color: var(--color-Page-Secondary);
 }
 
@@ -29,7 +29,7 @@
 
 .DescriptionMV{
     position: absolute;
-    top: 172vh;
+    top: 212vh;
 
     font-size: 4vh;
     font-weight: 200;
@@ -40,7 +40,7 @@
 
 .DescriptionMVS{
     position: absolute;
-    top: 223vh;
+    top: 263vh;
     color: var(--blackPage);
     font-size: 4vh;
     font-weight: 200;
@@ -62,6 +62,7 @@
     }
 
     .DescriptionMV{
+        margin-top: -23vh;
         font-size: 2vh;
     }
 
@@ -72,7 +73,7 @@
 
     .DescriptionMVS{
         font-size: 2vh;
-        margin-top: -10vh;
+        margin-top: -34vh;
     }
 
     

@@ -61,7 +61,7 @@ function Inicio() {
     }
 
     try {
-      const response = await axios.post('http://localhost:3000/registro', { correo });
+      const response = await axios.post('https://backend-ebon-three.vercel.app/api/registro', { correo });
       setCorreo('');
       setTipoError('');
       setRegistroCompletado(true);

@@ -4,6 +4,7 @@ import Martin from '../../assets/creators/Eduardo.svg'
 import Eduardo from '../../assets/creators/Martin.svg'
 import Oscar from '../../assets/creators/Oscar_Diaz.svg'
 import Joab from '../../assets/creators/Joab.svg'
+import Miguel from '../../assets/creators/Miguel.jpg'
 
 const Somos = () => {
     return(
@@ -103,6 +104,26 @@ const Somos = () => {
                                             Técnico Superior Universitario <br />
                                             en Sistemas Informáticos <br />
                                             Investigador
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> 
+                        <section className="creator5">
+                            <div className="cardM">
+                                <div className='IMGM'>
+                                    <img src={Miguel} alt="Miguel" />
+                                </div>
+                                <div className='TextM'>
+                                    <div className="NombreM">
+                                        <p>
+                                            Miguel Camarena
+                                        </p>
+                                    </div>
+                                    <div className="puestoM">
+                                        <p>
+                                            Ingenieria en Robotica <br />
+                                            Full Stack Web Designer
                                         </p>
                                     </div>
                                 </div>
