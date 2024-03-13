@@ -110,6 +110,16 @@
     background-color: #5A2497; 
 }
 
+@media screen and (max-width: 800px) {
+    .mainVibes{
+        width: 101vw;
+    }
+
+    .vibeIMG img{
+        margin-left: 2vw;
+    }
+  }
+
 @media screen and (max-width: 600px){
     .mainVibes{
         width: 100vw;

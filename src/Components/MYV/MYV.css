@@ -48,6 +48,12 @@
 
 }
 
+@media screen and (max-width: 800px) {
+    .mainMYV{
+        width: 101vw;
+    }
+  }
+
 @media screen and (max-width: 600px){
 
     .mainMYV{
@@ -62,7 +68,7 @@
     }
 
     .DescriptionMV{
-        margin-top: -18vh;
+        margin-top: -16vh;
         font-size: 2vh;
     }
 
@@ -73,7 +79,7 @@
 
     .DescriptionMVS{
         font-size: 2vh;
-        margin-top: -30vh;
+        margin-top: -27vh;
     }
 
     

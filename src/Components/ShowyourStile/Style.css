@@ -123,6 +123,13 @@
     background-color: #5A2497; 
   }
 
+  @media screen and (max-width: 800px) {
+    .show-body{
+        width: 101vw;
+        overflow: hidden;
+    }
+  }
+
 
   @media screen and (max-width: 600px){
     .show-body{
@@ -201,7 +208,7 @@
         width: 84vw;
         height: 5.5vh;
         font: 2vh;
-        margin-top: -10vh;
+        margin-top: -6vh;
         margin-left: -13vw;
 
     }

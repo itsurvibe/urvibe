@@ -3,7 +3,6 @@
 .mainSomos{
     width: 100vw;
     height: auto;
-    background-color: var(--color-Page-Secondary);
 }
 .textSomos{
     width: 80vw;
@@ -225,6 +224,12 @@
     transform: translateY(-5px);
 }
 
+
+@media screen and (max-width: 800px) {
+    .mainSomos{
+        width: 101vw;
+    }
+  }
 
 @media screen and (max-width: 600px){
     .mainSomos{

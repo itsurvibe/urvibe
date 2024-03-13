@@ -10,6 +10,7 @@ const Questions = () => {
         preregistro: false
     });
 
+
     // Función para alternar el estado de la respuesta cuando se hace clic en el botón "+"
     const toggleRespuesta = (pregunta) => {
         setRespuestasDesplegadas(prevState => ({

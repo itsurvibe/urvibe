@@ -3,6 +3,7 @@
 .body-jukebox{
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     display: flex;
 }
 
@@ -65,6 +66,16 @@
     margin-top: 0.5vh;
     margin-left: -3vw;
 }
+
+@media screen and (max-width: 800px) {
+    .IMG-JUKEBOX{
+       margin-left: 7VW;
+    }
+
+    .IMG-JUKEBOX img{
+        height: 90vh;
+    }
+  }
 
 @media screen and (max-width: 600px){
 

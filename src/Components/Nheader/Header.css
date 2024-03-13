@@ -125,6 +125,13 @@ img{
     top: 1.5vh;
 }
 
+@media screen and (max-width: 800px) {
+    .mainHeader{
+        width: 101vw;
+        overflow: hidden;
+    }
+  }
+
 
 @media screen and (max-width: 600px){
     .mainHeader{

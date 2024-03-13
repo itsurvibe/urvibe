@@ -104,6 +104,11 @@
     background-color: #000000; 
   }
 
+  @media screen and (max-width: 800px) {
+    .mainComunity{
+        width: 101vw;
+    }
+  }
 
   @media screen and (max-width: 600px){
     .mainComunity{

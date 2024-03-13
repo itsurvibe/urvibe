@@ -136,6 +136,13 @@ a{
     font-family: var(--font-family);
 }
 
+@media screen and (max-width: 800px) {
+    .footerMain{
+        width: 101vw;
+        overflow: hidden;
+    }
+  }
+
 
 @media screen and (max-width: 600px){
     .footerMain{

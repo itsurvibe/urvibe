@@ -147,6 +147,13 @@ color: transparent;
     background-color: #5A2497;
   }
 
+  @media screen and (max-width: 800px) {
+    .IMG2 img{
+        position: absolute;
+        top: 88vh;
+    }
+  }
+
 
   @media screen and (max-width: 600px){
     .body-section-2{
@@ -170,7 +177,7 @@ color: transparent;
     }
 
     .IMG2 img{
-        margin-top: -38vh;
+        margin-top: -32vh;
         height: 50vh;
     }
 
