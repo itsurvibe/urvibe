@@ -53,8 +53,8 @@
 
 .containerImg-1{
     width: 5vw;
-    height: 10vh;
-    border-radius: 50%;
+    height: 11vh;
+    border-radius: 999px;
     border-color: 2px solid var(--blackPage);
     display: flex;
     align-items: center;
@@ -129,8 +129,8 @@
 
 .containerIMG3{
     width: 5vw;
-    height: 10vh;
-    border-radius: 50%;
+    height: 11vh;
+    border-radius: 999px;
     border-color: 2px solid var(--blackPage);
     display: flex;
     align-items: center;
@@ -215,8 +215,8 @@
 
 .avatar-2{
     width: 5vw;
-    height: 10vh;
-    border-radius: 50%;
+    height: 11vh;
+    border-radius: 999px;
 
 
     display: flex;
@@ -324,7 +324,7 @@
   
     .containerImg-1{
       width: 16vw;
-      height: 7vh;
+      height: 7.5vh;
     }
   
     .containerImg-1 img{
@@ -365,14 +365,14 @@
   
     .img-4{
       width: 100vw;
-      height: 10vh;
+      height: 11vh;
   
   
     }
   
     .avatar-2{
       width: 16vw;
-      height: 7vh;
+      height: 7.5vh;
     }
   
     .avatar-2 img{
@@ -414,7 +414,7 @@
 
     .containerIMG3{
         width: 16vw;
-        height: 7vh;
+        height: 7.5vh;
     }
 
     .containerIMG3 img{

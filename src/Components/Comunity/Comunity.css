@@ -165,10 +165,13 @@
     .comunitySubtitle{
         width: 100vw;
         height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .comunitySubtitle p{
-        font-size: 2.2vh;
+        font-size: 2.5vh;
         text-align: center;
         width: 95vw;
     }
@@ -190,7 +193,7 @@
 
     .comunityForm button{
         margin-top: 7vh;
-        height: 5.5vh;
+        height: 5vh;
         margin-left: -84vw;
         width: 84vw;
     }

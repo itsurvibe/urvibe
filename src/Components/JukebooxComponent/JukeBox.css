@@ -33,7 +33,7 @@
     width: 37vw;
     height: 25vh;
     overflow: hidden;
-    margin-left: 8vh;
+    margin-left: 6vh;
     
 }
 
@@ -47,7 +47,7 @@
 .text-container-title p{
     font-family:var(--font-family) ;
     font-weight: 650;
-    font-size: 7vh;
+    font-size: 2.5rem;
     font-optical-sizing: auto;
     color: var(--color-black);
 }
@@ -121,8 +121,9 @@
 
     .text-container-description p{
         margin-top: 1vh;
-        font-size: 2vh;
+        font-size: 1.2rem;
         margin-left: 8vw;
+        font-weight: 400;
     }
 
     .IMG-JUKEBOX{

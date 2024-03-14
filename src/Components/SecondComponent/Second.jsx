@@ -87,6 +87,7 @@ const Second = () => {
                       <img
                         src={MockupFirst}
                         alt=""
+                        className='jukebooxIMG'
                       />
                     </div>
                 </section>

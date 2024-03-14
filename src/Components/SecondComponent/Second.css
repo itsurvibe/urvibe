@@ -117,10 +117,10 @@
 }
   
 .form2  input::placeholder{
-color: var(--color-gray-transparent);
-font-family: "Gabarito", sans-serif;
-font-optical-sizing: auto;
-font-weight: 400;
+    color: var(--color-gray-transparent);
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
   
 .form2:focus::placeholder{
@@ -207,7 +207,7 @@ color: transparent;
     }
 
     .Bigtext{
-        font-size: 4vh;
+        font-size: 2rem;
         margin-left: -4vw;
         text-align: center;
         justify-content: center;
@@ -217,8 +217,8 @@ color: transparent;
     .shortText{
         position: relative;
         left: 10vw;
-        font-size: 2vh;
-        margin-left: 0.01vw;
+        font-size: 1.1rem;
+        margin-left: -3vw;
     }
 
     .form2{
@@ -240,7 +240,7 @@ color: transparent;
 
     .form2 button{
         width: 84vw;
-        height: 5.5vh;
+        height: 5vh;
         margin-top: 2vh;
     }
   }  

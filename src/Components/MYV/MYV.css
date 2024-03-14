@@ -61,25 +61,25 @@
     }
 
     .Mision{
-        height: 40vh;
+        height: 50vh;
     }
     .Vision{
-        height:48vh;
+        height:58vh;
     }
 
     .DescriptionMV{
-        margin-top: -16vh;
-        font-size: 2vh;
+        margin-top: -8vh;
+        font-size: 2.5vh;
     }
 
     .TitleMV{
-        margin-top: 8vh;
+        margin-top: 3vh;
         font-size: 3.7vh;
     }
 
     .DescriptionMVS{
-        font-size: 2vh;
-        margin-top: -27vh;
+        font-size: 2.5vh;
+        margin-top: -9vh;
     }
 
     
