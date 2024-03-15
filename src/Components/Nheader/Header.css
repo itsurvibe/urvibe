@@ -44,7 +44,7 @@ img{
     position: absolute;
     width: 45vw;
     height: 5vw;
-    top: 8vh;
+    top: 9vh;
     left: 17vw;
     display: flex;
 }
@@ -59,13 +59,20 @@ img{
 .iconoHeaderNosotros{
   width: 3vw;
   position: relative;
-  margin-top: 1vh;
-  left: -4.2vw;
+  margin-top: 1.9vh;
+  left: -3.6vw;
+}
+
+.logos{
+    margin-top: 1vh;
+}
+.logos a{
+    margin-left: 0.38vw;
 }
 
 .iconoHeaderNosotros img{
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 39px;
 }
 
 .links{
@@ -96,7 +103,7 @@ img{
   color: var(--color-whitePage);
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2vh;
+  font-size: 1.4rem;
 
   margin-right: 4vw;
 }
@@ -178,9 +185,10 @@ img{
     } 
 
     .iconoHeaderNosotros img{
-        width: 40px;
-        height: 40px;
-        margin-left: 17vw;
+        width: 39px;
+        height: 39px;
+        margin-top: -6vh;
+        margin-left: 13.2vw;
     }
 
     .logoHeader{
@@ -209,22 +217,22 @@ img{
 
     .nosotrosP{
         position: relative;
-        left: -25vw;
-        top: 7vh;
+        left: -20.5vw;
+        top: 5.5vh;
     }
 
     .nosotrosP a{
-        font-size: 2vh;
+        font-size: 1.2rem;
     }
 
     .faqP{
         position: relative;
-        left: -7vw;
-        top: 2.6vh;
+        left: 0.8vw;
+        top: 0.4vh;
     }
 
     .faqP a{
-        font-size: 2vh;
+        font-size: 1.2rem;
     }
 
 }

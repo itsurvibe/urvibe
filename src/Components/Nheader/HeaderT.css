@@ -44,7 +44,7 @@ img{
     position: absolute;
     width: 45vw;
     height: 5vw;
-    top: 8vh;
+    top: 9vh;
     left: 17vw;
     display: flex;
 }
@@ -54,18 +54,28 @@ img{
     height: 11vh;
     display: flex;
     align-items: center;
-    margin-left: -4vw;
+    margin-left: -3.6vw;
 }
-.iconos{
+.iconosss{
   width: 3vw;
   height: 6vh;
   position: relative;
-  margin-top: 1vh;
+  margin-left: 1vw;
+  margin-top: 2vh;
 }
 
-.iconos img{
-  width: 3vw;
-  height: 5vh;
+.logoss{
+    margin-top: 1vh;
+}
+.logoss a{
+    margin-left: 0.38vw;
+}
+
+.iconosss img{
+  width: 37px;
+  height: 39px;
+  margin-top: -0.9vh;
+  margin-left: 0.4vw;
 }
 
 .linkss{
@@ -95,7 +105,7 @@ img{
   color: var(--color-whitePage);
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2vh;
+  font-size: 1.4rem;
 
   margin-right: 4vw;
 }
@@ -165,19 +175,19 @@ img{
         text-align: center;
     }
 
-    .iconos{
+    .iconosss{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 40vw;
         text-align: center;
     } 
-    .iconos img{
+    .iconosss img{
         width: 40px;
         height: 40px;
     }
 
-    .logos{
+    .logoss{
         width: 40vw;
         height: 20vh;
     }
@@ -201,22 +211,22 @@ img{
     .nosotrosPs{
         position: relative;
         left: -21vw;
-        top: 7.3vh;
+        top: 5vh;
     }
 
     .nosotrosPs a{
-        font-size: 2vh;
+        font-size: 5vh;
     }
 
     .faqPs{
         position: relative;
         left: -1vw;
-        top: 3vh;
+        top: 9vh;
     }
 
     
 
     .faqPs a{
-        font-size: 2vh;
+        font-size: 2.7vh;
     }
 }

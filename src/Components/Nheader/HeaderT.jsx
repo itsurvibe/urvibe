@@ -26,14 +26,14 @@ const HeaderT = () => {
                 <header className='navbars'>
                 <nav className='container-navs'>
                 <section className='logos'>
-                <div className='iconos'>
-                    <img src={LogoIcon} alt="IMagen Page" />
-                </div>
-                <div className='logoss'>
-                    {homes.map((home, index) => (
-                    <Link key={index} to={home.href}><Logo /></Link>
-                    ))}
-                </div>
+                    <div className='iconosss'>
+                        <img src={LogoIcon} alt="IMagen Page" className='IMGHEADERT' />
+                    </div>
+                    <div className='logoss'>
+                        {homes.map((home, index) => (
+                        <Link key={index} to={home.href}><Logo /></Link>
+                        ))}
+                    </div>
                 </section>
                 <section className='linkss'>
                 <div className='Nosotross'>

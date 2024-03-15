@@ -49,23 +49,26 @@ img{
     display: flex;
 }
 
-.logos{
+.logooss{
     width: 30vw;
     height: 11vh;
     display: flex;
     align-items: center;
-    margin-left: -4vw;
+    margin-top: 1vh;
+    margin-left: 0.7vw;
 }
-.iconos{
+.iconooss{
   width: 3vw;
   height: 6vh;
   position: relative;
   margin-top: 1vh;
 }
 
-.iconos img{
-  width: 3vw;
-  height: 5vh;
+.iconooss img{
+  width: 37px;
+  height: 39px;
+  margin-top: -0.5vh;
+  margin-left: 1vw;
 }
 
 .linkss{
@@ -95,7 +98,7 @@ img{
   color: var(--color-whitePage);
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2vh;
+  font-size: 1.4rem;
 
   margin-right: 4vw;
 }
@@ -164,14 +167,15 @@ img{
         text-align: center;
     }
 
-    .iconos{
+    .iconooss{
         display: flex;
         justify-content: center;
         align-items: center;
         width: 40vw;
         text-align: center;
     } 
-    .iconos img{
+    .iconooss img{
+        margin-left: 17vw;
         width: 40px;
         height: 40px;
     }
@@ -199,23 +203,25 @@ img{
 
     .nosotrosPs{
         position: relative;
-        left: -21vw;
-        top: 7.6vh;
+        left: -15vw;
+        top: 8vh;
     }
 
     .nosotrosPs a{
-        font-size: 2vh;
+        font-size: 1.2rem;
     }
 
     .faqPs{
+        overflow: hidden;
+        width: 35%;
         position: relative;
-        left: -1vw;
-        top: 3.5vh;
+        left: 28vw;
+        top: 2.8vh;
     }
 
     
 
     .faqPs a{
-        font-size: 2vh;
+        font-size: 1.4rem;
     }
 }

@@ -38,7 +38,7 @@ const Somos = () => {
                                         <p>
                                             Técnico Superior Universitario <br />
                                             en Sistemas Informáticos <br />
-                                            UI/UX Designer
+                                            <span>Diseñador UI/UX</span>
                                         </p>
                                     </div>
                                 </div>
@@ -58,7 +58,8 @@ const Somos = () => {
                                     <div className="puestoM">
                                         <p>
                                             Técnico Superior Universitario <br />
-                                            en Sistemas Informáticos
+                                            en Sistemas Informáticos <br />
+                                            <span>Encargado de finanzas y operaciones</span>
                                         </p>
                                     </div>
                                 </div>
@@ -82,7 +83,7 @@ const Somos = () => {
                                         <p>
                                             Técnico Superior Universitario <br />
                                             en Sistemas Informáticos <br />
-                                            Desarrollador Web Fullstack
+                                            <span>Desarrollador Web Fullstack</span>
                                         </p>
                                     </div>
                                 </div>
@@ -103,7 +104,7 @@ const Somos = () => {
                                         <p>
                                             Técnico Superior Universitario <br />
                                             en Sistemas Informáticos <br />
-                                            Investigador
+                                            <span>Investigador</span> 
                                         </p>
                                     </div>
                                 </div>
@@ -123,7 +124,7 @@ const Somos = () => {
                                     <div className="puestoM">
                                         <p>
                                             Ingenieria en Robotica <br />
-                                            Full Stack Web Designer
+                                            <span>Desarrolador Web FullStack</span> 
                                         </p>
                                     </div>
                                 </div>

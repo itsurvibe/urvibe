@@ -20,10 +20,10 @@ const HeaderF = () => {
                 <header className='navbars'>
                 <nav className='container-navs'>
                 <section className='logos'>
-                <div className='iconos'>
+                <div className='iconooss'>
                     <img src={LogoIcon} alt="IMagen Page" />
                 </div>
-                <div className='logoss'>
+                <div className='logooss'>
                     {homes.map((home, index) => (
                     <Link key={index} to={home.href}><Logo /></Link>
                     ))}
