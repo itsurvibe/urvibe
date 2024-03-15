@@ -14,7 +14,7 @@ const homes = [
 const Nosotros = [
     {
         name: 'Nosotros',
-        href: '/nosotros#questionsNosotros',
+        href: '/nosotros',
     },
 ];
 
@@ -38,7 +38,9 @@ const HeaderT = () => {
                 <section className='linkss'>
                 <div className='Nosotross'>
                         <p className='nosotrosPs'>
-                            <a href="/nosotros">Nosotros</a>
+                            {Nosotros.map((Nosotro, index) => (
+                            <Link key={index} to={Nosotro.href}>Nosotros</Link>
+                            ))}
                         </p>
                         <p className='faqPs'>
                             <a href="/#preguntas">FAQ</a>

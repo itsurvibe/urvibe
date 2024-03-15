@@ -20,7 +20,7 @@ const terminos = [
 const politicas = [
     {
       name: 'Politicas',
-      href: '/politicas#HeaderF',
+      href: '/politicas',
     },
   ];
 
